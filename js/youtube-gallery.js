@@ -12,8 +12,8 @@
       { id: 'd6IT3YEqvyg', title: 'Reflection of My Life', note: '黃良昇大師電子琴伴奏' },
       { id: 'cjpc6ioswTg', title: 'Scarborough Fair',      note: '黃良昇大師伴奏' },
       { id: 'wIVsC4MOc2w', title: 'More Than I Can Say',   note: '葉Sir在深圳' },
-      { id: 'ZwVLPchCaIQ', title: 'Smoke on the Water',    note: '黃良昇大師合奏' },
-      { id: 'OPZSjMpdyKM', title: '你到底愛誰',             note: '葉Sir 演唱' }
+      { id: 'OPZSjMpdyKM', title: 'Smoke on the Water',    note: '黃良昇大師合奏' },
+      { id: 'ZwVLPchCaIQ', title: '你到底愛誰',             note: '葉Sir 演唱' }
     ]
   };
 
