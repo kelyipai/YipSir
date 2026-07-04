@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>葉Sir — 音樂是我的生命</title>
+  <meta name="description" content="葉Sir的個人網站 — 熱愛唱歌與結他，鍾情70-80年代英文金曲。WiFi Band Yip Sir葉Sir。">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@700;900&family=Noto+Serif+TC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 滑鼠暖色光暈 -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- 導覽列 -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo gold-text">葉Sir</a>
+      <button class="nav-toggle" id="navToggle" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link active">首頁</a></li>
+        <li><a href="#about" class="nav-link">關於</a></li>
+        <li><a href="#era" class="nav-link">年代</a></li>
+        <li><a href="#youtube" class="nav-link">影片</a></li>
+        <li><a href="#vinyl" class="nav-link">黑膠</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-vinyl-deco"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">你好，我是</p>
+      <h1 class="hero-name gold-text">葉Sir</h1>
+      <p class="hero-typewriter">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </p>
+      <div class="hero-cta">
+        <a href="#era" class="btn btn-gold">欣賞音樂年代</a>
+        <a href="#youtube" class="btn btn-outline">觀看影片</a>
+      </div>
+      <div class="equalizer">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>向下滾動</span>
+      <svg width="20" height="28" viewBox="0 0 20 28" fill="none">
+        <rect x="1" y="1" width="18" height="26" rx="9" stroke="#e0b04a" stroke-width="1.5" opacity="0.6"/>
+        <circle cx="10" cy="8" r="2.5" fill="#e0b04a">
+          <animate attributeName="cy" values="8;18;8" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 關於葉Sir -->
+  <section id="about" class="section section-about">
+    <div class="container">
+      <h2 class="section-title gold-text fade-in">關於葉Sir</h2>
+      <p class="section-subtitle fade-in">ABOUT</p>
+      <div class="about-grid">
+        <div class="about-img-wrap fade-in">
+          <img src="assets/about-guitar.jpg" alt="結他" class="about-img">
+          <div class="about-img-corner"></div>
+        </div>
+        <div class="about-text fade-in">
+          <h3>音樂是我的生命</h3>
+          <p>葉Sir 熱愛唱歌與結他，深受 1970 與 1980 年代英文金曲薰陶。無論是搖滾、民謠還是抒情金曲，都用音樂記錄歲月，用歌聲傳遞感動。</p>
+          <p>亦是 WiFi Band 的一員，與好友以音樂會友，在不同場合演繹經典金曲，延續那份屬於黑膠年代的純粹與熱情。</p>
+          <div class="about-tags">
+            <span class="tag">結他</span>
+            <span class="tag">唱歌</span>
+            <span class="tag">70 年代</span>
+            <span class="tag">80 年代</span>
+            <span class="tag">英文金曲</span>
+            <span class="tag">WiFi Band</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 音樂年代 -->
+  <section id="era" class="section section-era">
+    <div class="container">
+      <h2 class="section-title gold-text fade-in">音樂年代</h2>
+      <p class="section-subtitle fade-in">MUSIC THROUGH THE DECADES</p>
+      <div class="era-timeline">
+        <div class="era-card fade-in" data-era="1970s">
+          <div class="era-bg" style="background-image:url('assets/era-1970s.jpg')"></div>
+          <div class="era-overlay era-overlay-wine"></div>
+          <div class="era-content">
+            <div class="era-decade">1970s</div>
+            <h3 class="era-subtitle">黃金搖滾年代</h3>
+            <p class="era-desc">搖滾、迪斯可與民謠搖滾的黃金十年，旋律真摯、編曲純粹，定義了一整個世代的聲音。</p>
+            <div class="era-genres">
+              <span class="genre-tag">Rock</span>
+              <span class="genre-tag">Disco</span>
+              <span class="genre-tag">Folk Rock</span>
+              <span class="genre-tag">Singer-Songwriter</span>
+            </div>
+            <p class="era-artists">Eagles · ABBA · Fleetwood Mac · Bee Gees · Led Zeppelin · Pink Floyd</p>
+          </div>
+        </div>
+
+        <div class="era-divider fade-in">
+          <span class="era-divider-note">♪</span>
+        </div>
+
+        <div class="era-card fade-in" data-era="1980s">
+          <div class="era-bg" style="background-image:url('assets/era-1980s.jpg')"></div>
+          <div class="era-overlay era-overlay-copper"></div>
+          <div class="era-content">
+            <div class="era-decade">1980s</div>
+            <h3 class="era-subtitle">流行新浪潮年代</h3>
+            <p class="era-desc">合成器流行、新浪潮與力量抒情歌席捲全球，MTV 世代誕生，視覺與聽覺的完美交會。</p>
+            <div class="era-genres">
+              <span class="genre-tag">Pop Rock</span>
+              <span class="genre-tag">New Wave</span>
+              <span class="genre-tag">Synth-Pop</span>
+              <span class="genre-tag">Power Ballad</span>
+            </div>
+            <p class="era-artists">Michael Jackson · Queen · Madonna · Bon Jovi · George Michael · Whitney Houston</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影片欣賞 -->
+  <section id="youtube" class="section section-youtube">
+    <div class="container">
+      <h2 class="section-title gold-text fade-in">影片欣賞</h2>
+      <p class="section-subtitle fade-in">YOUTUBE GALLERY</p>
+
+      <div class="yt-header fade-in">
+        <a id="ytSubscribe" class="btn btn-yt" href="https://youtube.com/@wifiband6071" target="_blank" rel="noopener">
+          <svg width="20" height="14" viewBox="0 0 20 14" fill="#fff" style="margin-right:8px;vertical-align:middle">
+            <path d="M19.6 2.2c-.2-.9-.9-1.6-1.8-1.8C16.2 0 10 0 10 0S3.8 0 2.2.4C1.3.6.6 1.3.4 2.2 0 3.8 0 7 0 7s0 3.2.4 4.8c.2.9.9 1.6 1.8 1.8C3.8 14 10 14 10 14s6.2 0 7.8-.4c.9-.2 1.6-.9 1.8-1.8.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM8 10V4l5.2 3L8 10z"/>
+          </svg>
+          訂閱頻道
+        </a>
+        <a id="ytChannel" href="https://youtube.com/@wifiband6071" target="_blank" rel="noopener" class="yt-channel-link">WiFi Band Yip Sir葉Sir</a>
+      </div>
+
+      <div class="yt-player-wrap fade-in">
+        <div id="ytPlayer"></div>
+        <div id="ytPlaceholder" class="yt-placeholder">
+          <img src="assets/microphone.jpg" alt="載入中" class="yt-poster">
+          <div class="yt-placeholder-text">
+            <p>影片載入中…</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="yt-thumbs" id="ytThumbs"></div>
+    </div>
+  </section>
+
+  <!-- 黑膠珍藏 -->
+  <section id="vinyl" class="section section-vinyl">
+    <div class="container">
+      <h2 class="section-title gold-text fade-in">黑膠珍藏</h2>
+      <p class="section-subtitle fade-in">VINYL COLLECTION</p>
+      <div class="vinyl-grid">
+        <div class="vinyl-card fade-in">
+          <div class="vinyl-record-wrap">
+            <div class="vinyl-record spin-slow">
+              <div class="vinyl-label" style="background-image:url('assets/vinyl-1.jpg')"></div>
+            </div>
+          </div>
+          <h3 class="vinyl-title">經典搖滾</h3>
+          <p class="vinyl-desc">70 年代搖滾巨作，結他 riff 刻進靈魂</p>
+        </div>
+        <div class="vinyl-card fade-in">
+          <div class="vinyl-record-wrap">
+            <div class="vinyl-record spin-med">
+              <div class="vinyl-label" style="background-image:url('assets/vinyl-2.jpg')"></div>
+            </div>
+          </div>
+          <h3 class="vinyl-title">抒情金曲</h3>
+          <p class="vinyl-desc">溫柔情歌，歲月沉澱的醇厚旋律</p>
+        </div>
+        <div class="vinyl-card fade-in">
+          <div class="vinyl-record-wrap">
+            <div class="vinyl-record spin-fast">
+              <div class="vinyl-label" style="background-image:url('assets/vinyl-3.jpg')"></div>
+            </div>
+          </div>
+          <h3 class="vinyl-title">新浪潮</h3>
+          <p class="vinyl-desc">80 年代合成器革命，電子音色新紀元</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <button id="backToTop" class="back-to-top" aria-label="回到頂部">↑</button>
+    <p class="footer-text">&copy; 2026 葉Sir · WiFi Band. All rights reserved.</p>
+    <div class="footer-social">
+      <a href="https://youtube.com/@wifiband6071" target="_blank" rel="noopener" class="footer-link">YouTube</a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/vinyl-canvas.js"></script>
+  <script src="js/youtube-gallery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

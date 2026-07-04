@@ -1,0 +1,15 @@
+# Office documents (not part of website)
+*.docx
+*.xlsx
+*.pptx
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
